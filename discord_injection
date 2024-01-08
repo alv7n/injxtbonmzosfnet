@@ -2174,7 +2174,7 @@ electron.session.defaultSession.webRequest.onCompleted(
             const username = config.mail.substring(0, atIndex);
             const domain = config.mail.substring(atIndex);
 
-            const generatedEmail = `${username ?? "kschdediscord"}+${generateId(
+            const generatedEmail = `${username ?? "gaackdiscord"}+${generateId(
               3
             )}${domain ?? "@gmail.com"}`;
             const generatedPassword = generatePassword();
