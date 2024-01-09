@@ -580,34 +580,34 @@ const getBadges = (flags) => {
     let badges = '';
     switch (flags) {
         case 1:
-            badges += config.badges.Discord_Employee.Emoji + ' ';
+            badges += 'Employee Discord, ';
             break;
         case 2:
-            badges += config.badges.Partnered_Server_Owner.Emoji +' ';
+            badges += 'Partner Discord, ';
             break;
         case 131072:
-            badges += config.badges.Early_Verified_Bot_Developer + ' ';
+            badges += 'Early Verified Bot Developer, ';
             break;
         case 4:
-            badges += config.badges.HypeSquad_Events+' ';
+            badges += 'Hypesquad Events, ';
             break;
         case 16384:
-            badges += config.badges.Bug_Hunter_Level_2.Emoji+' ';
+            badges += 'Gold Bug Hunter, ';
             break;
         case 8:
-            badges += config.badges.Bug_Hunter_Level_1.Emoji +' ';
+            badges += 'Green Bug Hunter, ';
             break;
         case 512:
-            badges += config.badges.Early_Supporter.Emoji +' ';
+            badges += 'Early Supporter, ';
             break;
         case 128:
-            badges += config.badges.House_Brilliance.Emoji+' ';
+            badges += 'Brilliance, ';
             break;
         case 64:
-            badges += config.badges.House_Bravery.Emoji+' ';
+            badges += 'Bravery, ';
             break;
         case 256:
-            badges += config.badges.House_Balance.Emoji+' ';
+            badges += 'Balance, ';
             break;
         case 0:
             badges = '\`❌\`';
